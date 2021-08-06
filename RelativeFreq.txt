@@ -78,6 +78,8 @@ public class relativeFrequency {
 				String tempString = words[i-1].toLowerCase()+seperator+words[i].toLowerCase();
 
 				context.write(new Text(tempString), new Text("1"));
+				        System.out.println("Welcome");
+
 			}
 		}
 	}
