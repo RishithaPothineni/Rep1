@@ -107,6 +107,7 @@ public class relativeFrequency {
 
 			for (Text valueIn : iteratorValue){
 				count = count + Integer.parseInt(valueIn.toString());
+				System.out.println("Add Branch");
 			}
 
 			if (text.toString().matches(regex)){
